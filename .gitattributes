@@ -1,0 +1,8 @@
+# Ensure text files use LF
+*.py text eol=lf
+*.toml text eol=lf
+*.gitignore text eol=lf
+
+# Binary files (no conversion)
+*.jpg -text
+*.png -text
